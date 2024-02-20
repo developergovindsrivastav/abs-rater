@@ -1,0 +1,25 @@
+.text-center{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 32px;
+}
+.fileupload{
+    height: 223px;
+    border: 2px solid black;
+    width: 226px;
+    position: relative;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filesection{
+    display: flex;
+    align-items: center;
+    max-height: 100vh;
+    
+}
+input[type = "file"]{
+position: relative;
+left: 20px;
+}
